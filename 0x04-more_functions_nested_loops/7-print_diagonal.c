@@ -12,12 +12,16 @@ void print_diagonal(int n)
 
 	if (n <= 0)
 		_putchar('\n');
-	else {
+	else 
+	{
 		int start = 0, cnt = 0, end;
-		while (cnt < n) {
+		while (cnt < n) 
+		{
 			end = cnt;
-			while(start <= end) {
-				if(strat == end) {
+			while(start <= end) 
+			{
+				if(strat == end) 
+				{
 					_putchar('//')
 					_putchar('\n')
 				}
