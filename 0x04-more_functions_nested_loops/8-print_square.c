@@ -8,16 +8,16 @@
  * Return: Always 0 (Success)
 */
 
-void print_square(int size)
+void print_square(int sz)
 {
-	if (size <= 0)
+	if (sz <= 0)
 		_putchar('\n'); 
 	else
 	{
-		int i, j;
-		for (i = 0; i < size; i++)
+		int x, y;
+		for (x = 0; x < sz; x++)
 		{
-			for (j = 0; j < size; j++)
+			for (y = 0; y < sz; y++)
 				_putchar('#');
 			_putchar('\n');
 		}
